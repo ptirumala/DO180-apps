@@ -4,6 +4,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
+    console.log('PTirumala app listening on port 8080!');
   res.send('Hello World from pod: ' + process.env.HOSTNAME + '\n')
 });
 
